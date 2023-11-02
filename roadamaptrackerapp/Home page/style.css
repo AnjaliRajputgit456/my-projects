@@ -1,0 +1,134 @@
+
+   *{
+    padding:0;
+    margin:0;
+
+   }
+   body{
+    background-color: #1c2249;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .one {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 112px;
+    font-size: 29px;
+   }
+   .second {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: -113px;
+    font-size: 20px;
+   }
+   #p{
+    color:white;
+    text-align: center;
+    justify-content: center;
+   }
+   .form{
+    display: block;
+    margin-top: 0em;
+    text-align: center;
+    justify-content: center;
+    margin: -2em;
+    font-size: 40px;
+
+   }
+      
+      .form-control{
+         height: 42px;
+         width: 374px;
+      }
+      .btn{
+         height: 51px;
+         width: 380px;
+         background-color: green;
+         font-size: 20px;
+         color: white;
+         cursor: pointer;
+         border: 10px solid green;
+      }
+      .file{
+         font-size: 17px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 17px;
+          color: white;
+      }
+      .main{
+         color: white;
+         text-align: center;
+         margin: 108px;
+         padding: -17px;
+      }
+      .name{
+         color:white;
+         margin-top: 20px;
+         display: block;
+         margin: 80px;
+         text-align: center;
+      
+
+      }
+      .signup_btn{
+         text-align: center;
+
+      }
+      .button{
+         background-color: #1c2249;
+         width: 372px;
+         color: white;
+         height: 51px;
+         border: 1px solid white; 
+         font-size: 18px;
+         font-weight: bold;
+         margin: 0em;
+      }
+      .img{
+                  font-size: 20px;
+      }
+      .mt-5{
+        margin: 20px;
+         
+      }
+      .list{
+              display: flex;
+              color: white;
+              list-style: none;
+              text-align: center;
+              justify-content: center;
+              font-size: 14px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+      }
+      .list2{
+         
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         z-index: 99;
+         color: white;
+         list-style: none;
+
+      }
+      .full{
+         margin: 26px;
+         font-size: 21px;
+    font-family: arial;
+}
+ .navbutton{
+   background:rgb(55, 64, 99);
+   border: 0;
+   border-radius: 40px;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+   height: 39px;
+   width: 186px;
+   cursor: pointer;
+
+ }
+ 

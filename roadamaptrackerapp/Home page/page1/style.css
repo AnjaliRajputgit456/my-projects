@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+  body{
+    background-color: #1c2249;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .main{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+     margin: 96px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .Signup_form{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .ha{
+    margin: 17px;
+    font-size: 50px;
+  }
+ .form{
+    color: white;
+    margin:10px;
+    font-size: 20px; 
+    text-align: center;
+
+  }
+  .form-control{
+    width: 401px;
+    height: 44px;
+    font-size: 18px;
+    margin: 10px;
+}
+  .bat{
+    width: 411px;
+    height: 52px;
+    background-color: green;
+    border-radius: 2px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 20px;
+  }
+  .one{
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .signup_btn {
+    width: 31%;
+    margin: auto;
+}
+
+.btn.btn.btn-primary{
+    color:white;
+    background-color: #1c2249;
+    text-align: center;
+    padding: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: 2px solid white;
+    font-size: 20px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+
+}
+.mt-5{
+    margin: 20px;
+     
+  }
+  .list{
+          display: flex;
+          color: white;
+          list-style: none;
+          text-align: center;
+          justify-content: center;
+          font-size: 14px;
+        font-weight: bold;
+        padding: 63px;
+        font-family: Arial, Helvetica, sans-serif;
+  }
+  .one{
+    color:white;
+         margin-top: 21px;
+         display: block;
+         margin: 21px;
+          text-align: center;
+   
+  }
