@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.manu-bar {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(IMG/logo.png);
+}
+
+.manu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.manu-bar ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 5px;
+    color:black;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: red;
+    border-radius: 3px;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para {
+    font-size: 18px;
+    color: #333c4e;
+    font-weight: bold;
+}
+
+.box {
+    max-width: 100px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    margin: auto;
+    padding: auto;
+    width: 64;
+    height: 64;
+}
+
+.title {
+    font-size: 20px;
+    margin: 25px 0 12px;
+    color: red;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 450px;
+    color: #333c4e
+}
+
+
+
+
+.file {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    cursor: pointer;
+}
+
+.but {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: blue;
+}
+
+.but:hover {
+    color: red;
+}
+
+.but:focus {
+    outline: none;
+}
+
+
+.technology {
+    background-image: url(/IMG/logo2.jpg);
+    width: 100%;
+    padding: 100px 0;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    font-size: 42px;
+    font-family: "MaseoSans-300", Open Sans;
+    margin-bottom: 35px;
+    margin-top: 0;
+    line-height: 1.1;
+}
+
+wrap head p {
+    font-size: 20px;
+    color: #333c4e;
+    margin: 0;
+    font-family: "MaseoSans-300", Open Sans;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.inner img {
+    padding: 20px 30px 50px 10px;
+    margin: 30px;
+    width: 100%;
+    height: px;
+    border-radius: 5px solid red;
+
+}
+
+#bn {
+
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.last h1{
+    text-align: center;
+}
+
+
+
+.outer{
+    height:100px;
+    border-radius:3px;
+    overflow: hidden;
+    padding:10px;
+    margin:auto;
+    
+}
+.blog-btn{
+    text-align: center;
+    justify-content: center;
+}
+.company-menu{
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#name{
+    background-color: whitesmoke;
+    width: auto;
+    height: 200%;
+}
+.item-list  { 
+display:flex;
+list-style-type: none;
+position: relative;
+background-color: aquamarine;
+ 
+}
+
+.item-list ul{
+     top:0;
+    position: absolute;
+    list-style: none;
+    padding: 50px;
+    margin:10px;
+}
+
+
+ .hidden-xs img {
+        width: 100%;
+        margin:5px;
+        padding:5px;
+        justify-content: center;
+    }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity: 0;
+    transition: opacity 0.45 ease-in-out;
+    background-color: red;
+    cursor: pointer;
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+  }
+  .card:hover .overlay{
+    opacity: 0.8;
+  }
+  
+  .item-list img{
+    width: 100%;
+  }
+
+  .one {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid red;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+
+  
+   .one:hover , .one:focus,.one:active{
+    background-color: red;
+    box-shadow: 0 0 20px rgba(0);
+   }
+   
+  
